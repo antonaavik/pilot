@@ -1,0 +1,7 @@
+.schema--blue {
+    background: var(--oc-blue-8);
+    color: #fff
+}
+.schema--blue a {
+    color: #fff;
+}

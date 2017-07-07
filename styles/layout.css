@@ -1,0 +1,16 @@
+.app__wrapper {
+    max-width: var(--max-width);
+    margin: auto;
+    padding: 0 var(--space-x);
+    overflow: hidden;
+}
+.app {
+    padding-top: 3rem;
+}
+.app__topbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: var(--bg);
+    z-index: var(--zindex--topbar);
+}
