@@ -16,7 +16,7 @@
     --font-size--h3: 1.5em;
     --font-size--h4: 1.25em;
     --font-size--h5: 1.25em;
-    --font-size--h6: 1.25em;
+    --font-size--h6: 1em;
     --font-size--sm: 0.875em;
 
     --font-family: sans-serif;
@@ -27,16 +27,18 @@
     --font-family--h5: inherit;
     --font-family--h6: inherit;
 
-    --font-weight: 400;
+    --font-weight: 300;
     --font-weight--h1: 400;
     --font-weight--h2: 400;
     --font-weight--h3: 400;
-    --font-weight--h4: 700;
-    --font-weight--h5: 700;
-    --font-weight--h6: 700;
+    --font-weight--h4: 400;
+    --font-weight--h5: 400;
+    --font-weight--h6: 400;
 
-    /* Layout */
-    --max-width: 64rem;
+    /* Buttons */
+
+    --btn-bg: var(--oc-blue-8);
+    --btn-color: white;
 
     /* Z-index */
     --zindex--topbar-bg: 990;
@@ -45,4 +47,12 @@
     --zindex--modal: 1050;
     --zindex--popover: 1060;
     --zindex--tooltip: 1070;
+
+    /* Layout */
+    --max-width: 64rem;
+
+    /* Schemas */
+    --schema-blue-bg: var(--oc-blue-8);
+    --schema-blue-color: #fff;
+
 }

@@ -1,7 +1,7 @@
 .schema--blue {
-    background: var(--oc-blue-8);
-    color: #fff
+    background: var(--schema-blue-bg);
+    color: var(--schema-blue-color);
 }
 .schema--blue a {
-    color: #fff;
+    color: var(--schema-blue-color);
 }

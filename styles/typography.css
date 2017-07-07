@@ -68,28 +68,31 @@ small,
 
 /* Alignment */
 
-.text--left {
+.text-left {
   text-align: center;
 }
-.text--center {
+.text-center {
   text-align: center;
 }
-.text--right {
+.text-right {
   text-align: right;
 }
-.text--justify {
+.text-justify {
   text-align: justify;
 }
-.text--nowrap {
+.text-nowrap {
     white-space: nowrap;
 }
 
 /* List styling */
 
-.list--unstyled {
+.list-unstyled {
   padding: 0;
   list-style: none;
 }
-.list--inline {
+.list-inline {
   display: flex;
+}
+.list-inline > li {
+    flex: 1 1;
 }
